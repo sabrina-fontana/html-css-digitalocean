@@ -10,6 +10,18 @@ body {
   margin: 10px 0;
 }
 
+.ul-nav ul {
+  text-align: right;
+}
+
+.ul-nav ul li {
+  display: inline-block;
+}
+
+.ocean-logo img {
+  height: 30px;
+}
+
 .bl-jumbotron {
   background: url(../img/sfondo-pesci.svg);
   background-size: cover;
@@ -66,5 +78,12 @@ body {
 @media screen and (min-width: 992px) {
   .bl-jumbotron h1 {
     font-size: 48px;
+  }
+}
+
+/* da lg in su */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
   }
 }
