@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.blue-text {
+  color: #1c7aff;
+}
+
+.margintb-10 {
+  margin: 10px 0;
+}
+
+.bl-jumbotron {
+  background: url(../img/sfondo-pesci.svg);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bl-jumbotron h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.jumbotron-text {
+  color: #bacdfc;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.get-started {
+  background-color: white;
+  border-radius: 5px;
+  /* text-align: center; */
+  padding: 15px;
+  font-weight: 700;
+}
+
+.get-started span.title {
+  font-size: 22px;
+}
+
+.sign-up {
+  font-weight: 700;
+  color: #666;
+}
+
+.sign-up img {
+  height: 15px;
+}
