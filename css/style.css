@@ -10,6 +10,10 @@ body {
   color: #1c7aff;
 }
 
+.white-text {
+  color: white;
+}
+
 .small-text {
   color: #6b7793;
   font-size: 18px;
@@ -18,10 +22,6 @@ body {
 .text {
   color: #6b7793;
   font-size: 22px;
-}
-
-.a-angler {
-  color: #1c7aff;
 }
 
 .small-title {
@@ -36,6 +36,10 @@ body {
 
 .bg-grey {
   background-color: #f3f5f9;
+}
+
+.bg-blue {
+  background-color: #0046c4;
 }
 
 .margintb-10 {
@@ -199,6 +203,28 @@ body {
   height: 40px;
 }
 
+/* section4 */
+.section4 .row-city {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.border-b {
+  border-bottom: 1.5px solid #bec8dd;
+}
+
+.section4 .test a {
+  color: #00d7d2;
+}
+
+.section4 .test {
+  text-align: right;
+}
+
+.section4 .row-city div:nth-child(2) {
+  color: #bec8dd;
+}
 
 /* MEDIAQUERY */
 /* da sm in su */
