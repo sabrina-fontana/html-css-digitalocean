@@ -250,6 +250,14 @@ i[class*="fa-chevron"] {
   padding-bottom: 0;
 }
 
+/* section6 */
+.section6 .btn-account {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 15px;
+}
+
 /* MEDIAQUERY */
 /* da sm in su */
 @media screen and (min-width: 768px) {
