@@ -1,9 +1,9 @@
+/* utility classes */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
-/* utility classes */
 .blue-text {
   color: #1c7aff;
   font-weight: 500;
@@ -31,7 +31,7 @@ body {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 700;
 }
 
@@ -58,8 +58,14 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+[class^="section"] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 /* fine utility classes */
 
+/* navbar */
 .ul-nav ul {
   height: 40px;
   line-height: 40px;
@@ -106,6 +112,7 @@ body {
   bottom: 3px;
 }
 
+/* jumbotron */
 .bl-jumbotron {
   background: url(../img/sfondo-pesci.svg);
   background-size: cover;
@@ -116,13 +123,11 @@ body {
 .bl-jumbotron h1 {
   color: white;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 38px;
 }
 
 .jumbotron-text {
   color: #bacdfc;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .get-started {
@@ -145,6 +150,7 @@ body {
   left: 10px;
 }
 
+/* logo section */
 .logo-section {
   text-align: center;
 }
@@ -154,7 +160,6 @@ body {
   width: 200px;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 
 /* section1 */
@@ -167,6 +172,8 @@ body {
 .section1 ul {
   padding-left: 15px;
 }
+
+/* .section2 */
 
 /* MEDIAQUERY */
 /* da sm in su */
