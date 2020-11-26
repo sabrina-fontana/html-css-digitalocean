@@ -2,23 +2,22 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 500;
+  color: #031b4e;
 }
 
 .blue-text {
   color: #1c7aff;
-  font-weight: 500;
 }
 
 .small-text {
   color: #6b7793;
   font-size: 18px;
-  font-weight: 500;
 }
 
 .text {
   color: #6b7793;
   font-size: 22px;
-  font-weight: 500;
 }
 
 .a-angler {
@@ -174,6 +173,32 @@ body {
 }
 
 /* .section2 */
+.section2 .text {
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.section2 img {
+  width: 60%;
+}
+
+.section2 i[class*="fa-chevron"] {
+  padding: 10px;
+}
+
+.section2 .circle-icons {
+  padding-top: 60px;
+}
+
+.section2 .circle-icons i:hover {
+  color: #1c7aff;
+}
+
+/* section3 */
+.section3 img {
+  height: 40px;
+}
+
 
 /* MEDIAQUERY */
 /* da sm in su */
@@ -196,6 +221,14 @@ body {
 
   .logo-section .row img {
     width: 150px;
+  }
+
+  .section2 .text {
+    padding-bottom: 40px;
+  }
+
+  .section2 .circle-icons {
+    padding-top: 10px;
   }
 }
 
