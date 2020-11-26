@@ -258,6 +258,24 @@ i[class*="fa-chevron"] {
   margin-top: 15px;
 }
 
+/* footer */
+footer {
+  background-color: #031c4e;
+}
+
+footer, footer a {
+  color: #7a859d;
+}
+
+footer img {
+  padding: 5px 0;
+}
+
+.social-icons i {
+  font-size: 20px;
+  padding: 5px;
+}
+
 /* MEDIAQUERY */
 /* da sm in su */
 @media screen and (min-width: 768px) {
