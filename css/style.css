@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 /* utility classes */
@@ -10,22 +11,27 @@ body {
 
 .small-text {
   color: #6b7793;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-}
-
-a {
-  color: #1c7aff;
 }
 
 .text {
-  color: ##666;
-  font-size: 20px;
+  color: #6b7793;
+  font-size: 22px;
   font-weight: 500;
 }
 
-.title {
+.a-angler {
+  color: #1c7aff;
+}
+
+.small-title {
   font-size: 22px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -34,19 +40,23 @@ a {
 }
 
 .margintb-10 {
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .paddingtb-10 {
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .paddingtb-20 {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .paddingtb-30 {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* fine utility classes */
 
@@ -142,7 +152,20 @@ a {
 .logo-section .row img {
   vertical-align: middle;
   width: 200px;
-  padding: 5px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+/* section1 */
+.section1 ul {
+  list-style: none;
+  text-align: left;
+  border-left: 2px solid lightgrey;
+}
+
+.section1 ul {
+  padding-left: 15px;
 }
 
 /* MEDIAQUERY */
@@ -153,7 +176,7 @@ a {
   }
 
   .logo-section .row img {
-    width: 110px;
+    width: 120px;
     padding: 5px;
   }
 }
@@ -167,7 +190,6 @@ a {
   .logo-section .row img {
     width: 150px;
   }
-
 }
 
 /* da lg in su */
