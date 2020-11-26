@@ -39,7 +39,7 @@ body {
 }
 
 .bg-blue {
-  background-color: #0046c4;
+  background-image: linear-gradient(to bottom, #0042c1 , #001E9A);
 }
 
 .margintb-10 {
@@ -186,12 +186,13 @@ body {
   width: 60%;
 }
 
-.section2 i[class*="fa-chevron"] {
+i[class*="fa-chevron"] {
   padding: 10px;
 }
 
-.section2 .circle-icons {
-  padding-top: 60px;
+.circle-icons i {
+  padding: 60px 5px 5px;
+  font-size: 14px;
 }
 
 .section2 .circle-icons i:hover {
@@ -226,6 +227,14 @@ body {
   color: #bec8dd;
 }
 
+/* section5 */
+.section5 .rockerbox {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  background-color: white;
+}
+
 /* MEDIAQUERY */
 /* da sm in su */
 @media screen and (min-width: 768px) {
@@ -253,7 +262,7 @@ body {
     padding-bottom: 40px;
   }
 
-  .section2 .circle-icons {
+  .section2 .circle-icons i {
     padding-top: 10px;
   }
 }
