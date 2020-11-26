@@ -195,7 +195,7 @@ i[class*="fa-chevron"] {
   font-size: 14px;
 }
 
-.section2 .circle-icons i:hover {
+.circle-icons i:hover {
   color: #1c7aff;
 }
 
@@ -233,6 +233,21 @@ i[class*="fa-chevron"] {
   width: 50%;
   vertical-align: middle;
   background-color: white;
+  margin-top: 50px;
+}
+
+.section5 img {
+  max-width: 95%;
+}
+
+.section5 .smaller-name {
+  font-size: 16px;
+}
+
+.section5 .smaller-name span:first-child {
+  font-weight: 700;
+  color: black;
+  padding-bottom: 0;
 }
 
 /* MEDIAQUERY */
