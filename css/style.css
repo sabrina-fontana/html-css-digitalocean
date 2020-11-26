@@ -2,8 +2,31 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* utility classes */
 .blue-text {
   color: #1c7aff;
+  font-weight: 500;
+}
+
+.small-text {
+  color: #6b7793;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a {
+  color: #1c7aff;
+}
+
+.text {
+  color: ##666;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .bg-grey {
@@ -13,6 +36,19 @@ body {
 .margintb-10 {
   margin: 10px 0;
 }
+
+.paddingtb-10 {
+  padding: 10px 0;
+}
+
+.paddingtb-20 {
+  padding: 20px 0;
+}
+
+.paddingtb-30 {
+  padding: 30px 0;
+}
+/* fine utility classes */
 
 .ul-nav ul {
   height: 40px;
@@ -58,14 +94,13 @@ body {
   height: 25px;
   position: relative;
   bottom: 3px;
-
 }
 
 .bl-jumbotron {
   background: url(../img/sfondo-pesci.svg);
   background-size: cover;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .bl-jumbotron h1 {
@@ -76,7 +111,7 @@ body {
 
 .jumbotron-text {
   color: #bacdfc;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -84,12 +119,7 @@ body {
   background-color: white;
   border-radius: 5px;
   text-align: center;
-  padding: 15px;
-  font-weight: 700;
-}
-
-.get-started span.title {
-  font-size: 22px;
+  padding: 20px 15px;
 }
 
 .sign-up {
@@ -105,12 +135,14 @@ body {
   left: 10px;
 }
 
-.section1 {
+.logo-section {
   text-align: center;
 }
 
-.section1 .row img {
+.logo-section .row img {
   vertical-align: middle;
+  width: 200px;
+  padding: 5px 15px;
 }
 
 /* MEDIAQUERY */
@@ -119,6 +151,11 @@ body {
   .jumbotron-text {
     font-size: 21px;
   }
+
+  .logo-section .row img {
+    width: 110px;
+    padding: 5px;
+  }
 }
 
 /* da md in su */
@@ -126,6 +163,11 @@ body {
   .bl-jumbotron h1 {
     font-size: 48px;
   }
+
+  .logo-section .row img {
+    width: 150px;
+  }
+
 }
 
 /* da lg in su */
