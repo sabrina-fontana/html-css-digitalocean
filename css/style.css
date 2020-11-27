@@ -92,8 +92,7 @@
 }
 
 .btn-menu {
-  height: 30px;
-  width: 30px;
+  width: 40px;
   float: right;
   margin-right: 15px;
   border: none;
@@ -102,8 +101,8 @@
 }
 
 .btn-menu .icon-bar {
+  margin: 0 auto;
   background-color: #1c7aff;
-  width: 25px;
   height: 3px;
   margin-top: 5px;
 }
@@ -112,6 +111,10 @@
   border: 1px solid #1c7aff;
   padding: 3px 5px;
   margin-left: 5px;
+}
+
+.nav-1, .nav-2 {
+  display: none;
 }
 
 .ul-nav a {
@@ -331,6 +334,10 @@ footer a:hover {
 
 /* da md in su */
 @media screen and (min-width: 992px) {
+  .nav-1, .nav-2 {
+    display: block;
+  }
+
   .bl-jumbotron h1 {
     font-size: 48px;
   }
