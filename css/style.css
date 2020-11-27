@@ -261,6 +261,7 @@ i[class*="fa-chevron"] {
 /* footer */
 footer {
   background-color: #031c4e;
+  font-size: 14px;
 }
 
 footer, footer a {
@@ -274,6 +275,22 @@ footer img {
 .social-icons i {
   font-size: 20px;
   padding: 5px;
+}
+
+footer .footer-list {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer .footer-list li {
+  padding: 3px 0;
+}
+
+footer .list-title {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
 }
 
 /* MEDIAQUERY */
