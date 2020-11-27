@@ -1,9 +1,13 @@
 /* utility classes */
-body {
+.bl-digitalocean {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #031b4e;
+}
+
+.bl-digitalocean a {
+  text-decoration: none;
 }
 
 .blue-text {
@@ -69,14 +73,22 @@ body {
 /* fine utility classes */
 
 /* navbar */
-.ul-nav ul {
+.bl-nav ul {
   height: 40px;
   line-height: 40px;
 }
 
-.ul-nav ul li {
+.bl-nav ul li {
   display: inline-block;
   margin: 5px;
+}
+
+.bl-nav a {
+  color: #031b4e;
+}
+
+.bl-nav li:hover a {
+  color: #1c7aff;
 }
 
 .btn-menu {
@@ -186,8 +198,9 @@ body {
   width: 60%;
 }
 
-i[class*="fa-chevron"] {
+a.chevron {
   padding: 10px;
+  color: #031b4e;
 }
 
 .circle-icons i {
@@ -195,7 +208,7 @@ i[class*="fa-chevron"] {
   font-size: 14px;
 }
 
-.circle-icons i:hover {
+.chevron i:hover, .circle-icons i:hover {
   color: #1c7aff;
 }
 
@@ -205,9 +218,9 @@ i[class*="fa-chevron"] {
 }
 
 /* section4 */
-.section4 .row-city {
-  margin-left: 5px;
-  margin-right: 5px;
+.section4 .row-container {
+  margin-left: 15px;
+  margin-right: 15px;
   font-size: 14px;
 }
 
@@ -223,17 +236,24 @@ i[class*="fa-chevron"] {
   text-align: right;
 }
 
-.section4 .row-city div:nth-child(2) {
+.section4 .row div:nth-child(2) {
   color: #bec8dd;
 }
 
 /* section5 */
+.section5 .title {
+  margin-bottom: 50px;
+}
+
+.section5 span {
+  display: inline-block;
+}
+
 .section5 .rockerbox {
   display: inline-block;
   width: 50%;
   vertical-align: middle;
   background-color: white;
-  margin-top: 50px;
 }
 
 .section5 img {
