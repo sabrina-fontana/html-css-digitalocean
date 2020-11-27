@@ -87,7 +87,7 @@
   color: #031b4e;
 }
 
-.bl-nav li:hover a {
+.bl-nav a:hover {
   color: #1c7aff;
 }
 
@@ -188,6 +188,10 @@
   padding-left: 15px;
 }
 
+.section1 a:hover {
+  color: #031b4e;
+}
+
 /* .section2 */
 .section2 .text {
   padding-bottom: 80px;
@@ -230,6 +234,10 @@ a.chevron {
 
 .section4 .test a {
   color: #00d7d2;
+}
+
+.section4 .test a:hover {
+  color: rgb(0, 105, 255);
 }
 
 .section4 .test {
@@ -311,6 +319,10 @@ footer .list-title {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
+}
+
+footer a:hover {
+  color: white;
 }
 
 /* MEDIAQUERY */
