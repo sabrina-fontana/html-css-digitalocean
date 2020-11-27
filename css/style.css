@@ -319,6 +319,42 @@ footer a:hover {
   color: white;
 }
 
+footer .shark {
+float: right;
+}
+
+footer .shark span {
+  display: inline-block;
+  width: 230px;
+  background-color: white;
+  color: #031b4e;;
+  padding: 8px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 5px;
+}
+
+.shark span:before {
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 80%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -20px;
+	margin-right: -15px;
+}
+
+
+footer .shark img {
+  width: 70px;
+  margin-left: 20px;
+}
+
 /* MEDIAQUERY */
 /* da sm in su */
 @media screen and (min-width: 768px) {
