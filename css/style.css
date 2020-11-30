@@ -100,12 +100,9 @@
   background-color: white;
 }
 
-.btn-menu span.icon-bar {
-  display: block;
-  margin: 0 auto;
-  background-color: #1c7aff;
-  height: 3px;
-  margin-top: 5px;
+.btn-menu i {
+  color: #1c7aff;
+  font-size: 25px;
 }
 
 .btn-sign-up {
@@ -324,21 +321,28 @@ footer a:hover {
 }
 
 footer .shark {
-float: right;
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
 }
 
-footer .shark span {
-  display: inline-block;
+footer .shark-bubble {
+  display: block;
+  float: left;
   width: 230px;
   background-color: white;
-  color: #031b4e;;
+  color: #031b4e;
   padding: 8px;
   vertical-align: middle;
   position: relative;
   border-radius: 5px;
 }
 
-.shark span:before {
+footer .shark img:hover .shark-bubble {
+  display: block;
+}
+
+.shark .shark-bubble:before {
   content: '';
 	position: absolute;
 	right: 0;
@@ -353,9 +357,8 @@ footer .shark span {
 	margin-right: -15px;
 }
 
-
 footer .shark img {
-  width: 70px;
+  width: 60px;
   margin-left: 20px;
 }
 
