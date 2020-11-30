@@ -327,7 +327,7 @@ footer .shark {
 }
 
 footer .shark-bubble {
-  display: block;
+  display: none;
   float: left;
   width: 230px;
   background-color: white;
