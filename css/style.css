@@ -292,7 +292,7 @@ footer, footer a {
 }
 
 footer img {
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
 .social-icons i {
@@ -338,7 +338,7 @@ footer .shark-bubble {
   border-radius: 5px;
 }
 
-footer .shark img:hover .shark-bubble {
+footer .shark:hover .shark-bubble {
   display: block;
 }
 
