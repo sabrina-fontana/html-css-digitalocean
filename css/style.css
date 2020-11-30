@@ -146,7 +146,6 @@
 .get-started {
   background-color: white;
   border-radius: 5px;
-  text-align: center;
   padding: 20px 15px;
 }
 
@@ -251,7 +250,7 @@ a.chevron {
   display: inline-block;
 }
 
-.section5 .rockerbox {
+.rockerbox {
   width: 50%;
   vertical-align: middle;
   background-color: white;
@@ -274,7 +273,7 @@ a.chevron {
 }
 
 /* section6 */
-.section6 .btn-account {
+.btn-account {
   font-size: 18px;
   font-weight: 700;
   padding: 10px;
@@ -300,12 +299,12 @@ footer img {
   padding: 5px;
 }
 
-footer .footer-list {
+.footer-list {
   list-style: none;
   padding: 5px 0;
 }
 
-footer .footer-list li {
+.footer-list li {
   padding: 3px 0;
 }
 
@@ -320,29 +319,25 @@ footer a:hover {
   color: white;
 }
 
-footer .shark {
+.shark {
   position: fixed;
   bottom: 5%;
   right: 10%;
 }
 
-footer .shark-bubble {
+.shark-bubble {
   display: none;
-  float: left;
   width: 230px;
+  height: 60px;
   background-color: white;
   color: #031b4e;
-  padding: 8px;
-  vertical-align: middle;
+  padding: 10px;
   position: relative;
   border-radius: 5px;
+  vertical-align: middle;
 }
 
-footer .shark:hover .shark-bubble {
-  display: block;
-}
-
-.shark .shark-bubble:before {
+.shark-bubble:before {
   content: '';
 	position: absolute;
 	right: 0;
@@ -357,9 +352,19 @@ footer .shark:hover .shark-bubble {
 	margin-right: -15px;
 }
 
-footer .shark img {
-  width: 60px;
+.shark:hover .shark-bubble {
+  display: inline-block;
+}
+
+.shark img {
+  width: 65px;
   margin-left: 20px;
+  opacity: 0.5;
+  line-height: 60px;
+}
+
+.shark:hover img {
+  opacity: 1;
 }
 
 /* MEDIAQUERY */
